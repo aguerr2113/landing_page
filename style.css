@@ -1,0 +1,86 @@
+/* .box {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+}
+.one{
+  display: flex;
+  justify-content: center;
+  flex: 1 1 auto;
+  margin: 0;
+}
+.two{
+  flex: 1 1 auto;
+}
+/* div.first-class{
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+} */
+/* div.second-class{
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+
+img.hero {
+    width: 50%;
+    height: 50%;
+  } */ 
+
+.wodder{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #AFF24B;
+  padding: 50px;
+}
+
+.icon {
+    width: 9rem;
+    height: 9rem;
+  }
+.hero {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 50px;
+}
+  
+.hero-content {
+  max-width: 50%;
+}
+  
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-content h2 {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #BAD94A;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+  
+.hero-image {
+  max-width: 50%;
+}
+  
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
