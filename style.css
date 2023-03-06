@@ -27,6 +27,63 @@ img.hero {
     width: 50%;
     height: 50%;
   } */ 
+body{
+  margin: 0;
+  background-image: url(style/wodder_back.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+
+}
+
+
+
+form {
+
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+  outline: auto;
+}
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #3e8e41;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.container:hover {
+  opacity: 1;
+}
+
 
 .wodder{
   font-family: Arial, Helvetica, sans-serif;
@@ -35,8 +92,11 @@ img.hero {
   justify-content: center;
   align-items: center;
   background-color: #AFF24B;
+  border-radius: 5px;
   padding: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 
 .icon {
     width: 9rem;
@@ -50,6 +110,17 @@ img.hero {
   align-items: center;
   background-color: #f4f4f4;
   padding: 50px;
+}
+
+.hero-ish{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  min-height: 100vh;
+  box-sizing: border-box;
+
 }
   
 .hero-content {
@@ -84,3 +155,8 @@ img.hero {
   width: 100%;
   height: auto;
 }
+
+.not-this{
+  margin: auto;
+}
+
