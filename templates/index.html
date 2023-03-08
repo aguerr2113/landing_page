@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>landing</title>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/script.js"></script>
+    <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
     <section class="hero">
@@ -15,11 +15,17 @@
                 <h1>WODDER</h1>
             </div>
           <h2>No more boring workouts! Our random workout generator creates custom workouts based on your fitness level and goals.</h2>
-          <a href="#"  class="cta-button" id="cta-button">Get Started</a>
+          <!-- <a href="#"  class="cta-button" id="cta-button">Get Started</a> -->
+        {% block button %}
+          <a href="{{ url_for('logout') }}">Logout</a>
+          <a href="{{ url_for('signin') }}">signin</a>
+          <a href="{{url_for('signup')}}" class="cta-button" id="cta-button"><button type="button" class="btn btn-light">Get Started</button></a>
+        {% endblock %}
         </div>
         <div class="hero-image">
-            <img src="style/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg" alt="People working out and using the random workout generator">
+            <img src="static/style/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg" alt="People working out and using the random workout generator">
         </div>
+        {% block content %}{% endblock %}
       </section>
 </body>
 </html>
